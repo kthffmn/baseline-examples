@@ -2,37 +2,30 @@
 <html>
   <head>
     <meta charset="UTF-8" />
-
-    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css" />
 
     <style>
-      .thing {
+
+      body {
+        font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+      }
+
+      .card {
         display: inline-block;
-        border: 2px dashed red;
-      }
-
-      #a {
-        background: blue;
-        /* vertical-align: middle; */
-      }
-
-      #b {
-        background: green;
-      }
-
-      .thing p {
-        background: yellow;
+        background-color: #89b1b5;
+        padding: 10px;
+        margin: 5px;
       }
 
     </style>
   </head>
   <body>
-    <div class="thing" id="a">
-      <img src="img.jpg" />
+    <div class="card image" id="a">
+      <img src="creature.jpeg" />
     </div>
 
-    <div class="thing" id="b">
-      <p>Yo what is up.</p>
+    <div class="card text" id="b">
+      <p>Lorem ipsum</p>
     </div>
   </body>
 </html>
